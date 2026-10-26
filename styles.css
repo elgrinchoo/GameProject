@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+#objeto{
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    border: 2px solid #000;
+    position: absolute;
+    z-index: 1;
+}
+
+#ball{
+    width: 20px;
+    height: 20px;
+    background: #0f0;
+    border-radius: 50%;
+    border: 2px solid #000;
+    cursor: pointer;
+    position: absolute;
+}
+
+#contador-container{
+    display: flex;
+    justify-content: end;
+}
+
+#contador{
+    width: 150px;
+    height: 100px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contador-tiempo{
+    font-size: 2rem;
+    text-align: center;
+}
